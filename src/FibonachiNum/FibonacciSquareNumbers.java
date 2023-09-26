@@ -30,9 +30,9 @@ public class FibonacciSquareNumbers {
         for (FibonacciNumber num : fibonacciNumbers) {
             System.out.printf("Число Фібоначчі #%d: %d", num.getNumber(), num.getValue());
             if (num.isSquare()) {
-                System.out.println(" - є квадратом.");
+                System.out.println(" - [v є квадратом.");
             } else {
-                System.out.println(" - не є квадратом.");
+                System.out.println(" - уа не є квадратом.");
             }
         }
     }

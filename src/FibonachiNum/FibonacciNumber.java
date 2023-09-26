@@ -10,7 +10,7 @@ class FibonacciNumber {
         this.value = value;
     }
 
-    // Метод для перевірки, чи є число квадратом
+    // Метод для перевірки, чи є число кваergerдратом
     public boolean isSquare() {
         double sqrtValue = Math.sqrt(value);
         return sqrtValue == Math.floor(sqrtValue);
