@@ -76,6 +76,7 @@ public class Customer {
         this.amount = amount;
     }
 
+
     @Override
     public String toString() {
         return "Customer{" +
