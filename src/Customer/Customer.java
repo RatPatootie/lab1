@@ -2,25 +2,26 @@ package Customer;
 
 
 public class Customer {
-    protected int customer_id;
+    protected int customerId;
     protected String lastname;
     protected String firstname;
     protected String patronymic;
     protected String adress;
     protected long cardNum;
     protected int amount;
-public Customer (int customer_id,String lastname,String firstname,String patronymic,String adress,long cardNum,int amount){
-    this.customer_id=customer_id;
-    this.lastname=lastname;
-    this.firstname=firstname;
-    this.patronymic=patronymic;
-    this.adress=adress;
-    this.cardNum=cardNum;
-    this.amount=amount;
-}
 
-    public int getCustomer_id() {
-        return customer_id;
+    public Customer(int customerId, String lastname, String firstname, String patronymic, String adress, long cardNum, int amount) {
+        this.customerId = customerId;
+        this.lastname = lastname;
+        this.firstname = firstname;
+        this.patronymic = patronymic;
+        this.adress = adress;
+        this.cardNum = cardNum;
+        this.amount = amount;
+    }
+
+    public int getCustomerId() {
+        return customerId;
     }
 
     public String getFirstname() {
@@ -47,8 +48,8 @@ public Customer (int customer_id,String lastname,String firstname,String patrony
         return amount;
     }
 
-    public void setCustomer_id(int customer_id) {
-        this.customer_id = customer_id;
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
     }
 
     public void setFirstname(String firstname) {
@@ -75,10 +76,10 @@ public Customer (int customer_id,String lastname,String firstname,String patrony
         this.amount = amount;
     }
 
-    //  @Override
+    @Override
     public String toString() {
         return "Customer{" +
-                "customer_id=" + customer_id +
+                "customer_id=" + customerId +
                 ", lastname='" + lastname + '\'' +
                 ", firstname='" + firstname + '\'' +
                 ", patronymic='" + patronymic + '\'' +
