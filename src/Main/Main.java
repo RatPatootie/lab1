@@ -32,15 +32,12 @@ public class Main {
     }
 
     public static void findCustomerByName(Customer[] customers, String name) {
-        for (Customer customer : customers)
+        for (Customer customer : customers){
             if (customer.getFirstname().equals(name)) {
                 System.out.println(customer);
             }
-        for (int i = 0; i <= customers.length; i++) {
-            if (customers[i].getFirstname().equals(name)) {
-                System.out.println(customers[i]);
 
-            }
+
         }
     }
 
@@ -53,6 +50,7 @@ public class Main {
 
         }
     }
+
 
     public static int findCustomersAmount(Customer[] customers) {
         int i = 0;
